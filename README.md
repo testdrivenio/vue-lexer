@@ -3,6 +3,8 @@
 
 [![Build Status](https://travis-ci.org/testdrivenio/vue-lexer.svg?branch=master)](https://travis-ci.org/testdrivenio/vue-lexer)
 
+[![PyPI version](https://badge.fury.io/py/vue-lexer.svg)](https://badge.fury.io/py/vue-lexer)
+
 A Vue lexer for [Pygments](http://pygments.org/) (based on [jsx-lexer](https://github.com/fcurella/jsx-lexer))
 
 ## Installation
@@ -83,12 +85,12 @@ Now, you can use `vue` in your code blocks:
 
 Example 1:
 
-<img src="examples/example1.png" width="25%">
+<img src="https://raw.githubusercontent.com/testdrivenio/vue-lexer/master/examples/example1.png" width="25%">
 
 Example 2:
 
-<img src="examples/example2.png" width="50%">
+<img src="https://raw.githubusercontent.com/testdrivenio/vue-lexer/master/examples/example2.png" width="50%">
 
 Example 3:
 
-<img src="examples/example3.png" width="35%">
+<img src="https://raw.githubusercontent.com/testdrivenio/vue-lexer/master/examples/example3.png" width="35%">
