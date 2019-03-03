@@ -4,14 +4,15 @@ import os
 from setuptools import setup, find_packages
 
 
-VERSION = '0.0.1'
+VERSION = '0.0.2'
 here = os.path.abspath(os.path.dirname(__file__))
-README = io.open(os.path.join(here, 'README.rst'), encoding="utf8").read()
+README = io.open(os.path.join(here, 'README.md'), encoding="utf8").read()
 
 setup(
     name='vue-lexer',
     description='A Vue lexer for Pygments',
     long_description=README,
+    long_description_content_type="text/markdown",
     version=VERSION,
     url='https://github.com/testdrivenio/vue-lexer',
     author='Michael Herman',
