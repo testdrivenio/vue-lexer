@@ -92,6 +92,22 @@ class VueLexerTestCase(TestCase):
           (Token.Punctuation, '>')
         ])
 
+    def test_lexing_directive_vfor(self):
+        lexer = lexers.get_lexer_by_name('vue')
+        tokens = lexer.get_tokens('''
+            <path v-for="link in graph" :key="link">
+        ''')
+
+        self.assertEqual (self.__filter_tokens (tokens), [
+          (Token.Punctuation, '<'),
+          (Token.Name.Tag, 'path'),
+          (Token.Name.Tag, 'v-for'),
+          (Token.Literal.String, '="link in graph" '),
+          (Token.Name.Tag, ':key'),
+          (Token.Literal.String, '="link"'),
+          (Token.Punctuation, '>')
+        ])
+
     def test_lexing_directive_three(self):
         lexer = lexers.get_lexer_by_name('vue')
         tokens = lexer.get_tokens('''
