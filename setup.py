@@ -20,7 +20,6 @@ setup(
     classifiers=[
         'Environment :: Plugins',
         'Intended Audience :: Developers',
-        'Programming Language :: Python :: 2',
         'Programming Language :: Python :: 3'
     ],
     keywords='pygments highlight vue',
