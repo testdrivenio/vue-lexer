@@ -1,4 +1,3 @@
-from .lexer import VueLexer # noqa
+from .lexer import VueLexer  # noqa
 
-
-__all__ = ['VueLexer']
+__all__ = ["VueLexer"]
